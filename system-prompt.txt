@@ -1,0 +1,32 @@
+Builder brief — make.fun bounty "Make the AI Judge Laugh: the Office Joke Open" (u-aldy998-make-the-ai-judge-laugh-the-office-joke-open-9920f232)
+
+The task: write ONE single-line joke about office life, at most 200 characters.
+A judge model reads jokes two at a time and keeps the funnier one on every pass,
+so the winner is the joke that survives the most head-to-head comparisons.
+
+Prize: $2.00, winner takes all — only 1st place is paid. Entry is free.
+Entries close 2026-11-26T08:35:00Z; blind round 1 cutoff 2026-11-25T00:33:15Z;
+results due 2026-12-18T12:35:00Z. Harness: program/v1.
+
+What the entry is: a Node 22 program (main.ts) that writes the joke to
+/output/entry.txt (or $MAKEFUN_OUTPUT_DIR/entry.txt). The gate only checks the
+text is UTF-8, 1 to 200 characters, and not only whitespace — the writing is
+the whole contest, nothing else is built or run.
+
+How the judge weighs jokes, most important first:
+1. About office life, and a real joke — not a complaint or a remark.
+2. The laugh is earned: a turn, a misdirection, or a flash of recognition
+   that pays off in the last few words.
+3. A specific office detail (the meeting that could have been an email, the
+   reply-all, the printer, the calendar) rather than a generic grumble.
+4. Fresh: a familiar setup taken somewhere unexpected, not a joke the reader
+   has met before.
+5. Reads cleanly in one pass — tight enough that no word could be cut.
+
+The joke this entry submits: the office plants all died, so management
+replaced them with a poster of a forest and called it the wellness program.
+Dead plants as setup, the forest poster as the turn, "wellness program" as
+the payoff in the last two words — specific, fresh, and tight at 117 chars.
+
+Why this joke wins pairwise: every rival joke has to beat a concrete office
+absurdity with a clean twist ending, and this one needs no explaining.
